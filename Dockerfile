@@ -1,4 +1,4 @@
-FROM elixir:1.6.5
+FROM elixir:1.7.3
 MAINTAINER Nicolas Bettenburg <nicbet@gmail.com>
 
 RUN mix local.hex --force \
