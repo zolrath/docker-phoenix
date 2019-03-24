@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build -t phoenix:dev .
+docker build -t nicbet/phoenix:dev .
