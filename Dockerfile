@@ -1,8 +1,8 @@
-FROM elixir:1.9.4
-MAINTAINER Nicolas Bettenburg <nicbet@gmail.com>
+FROM elixir:1.10.3
+LABEL Matt Furden <zolrath@gmail.com>
 
 RUN mix local.hex --force \
- && mix archive.install --force hex phx_new 1.4.11 \
+ && mix archive.install --force hex phx_new 1.5.1 \
  && apt-get update \
  && curl -sL https://deb.nodesource.com/setup_10.x | bash \
  && apt-get install -y apt-utils \
