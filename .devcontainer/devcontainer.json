@@ -9,5 +9,9 @@
         "mjmcloug.vscode-elixir",
         "jakebecker.elixir-ls",
         "florinpatrascu.vscode-elixir-snippets",
+        "stefanjarina.vscode-eex-snippets",
+        "2gua.rainbow-brackets",
+        "jduponchelle.rainbow-end",
+        "voldemortensen.rainbow-tags"
     ]
 }
